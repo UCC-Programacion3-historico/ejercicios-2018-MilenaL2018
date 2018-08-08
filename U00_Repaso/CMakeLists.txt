@@ -7,7 +7,7 @@ add_executable(U00-E02 ${SOURCE_FILES_02})
 set(SOURCE_FILES_03 Ej-03/main.cpp Ej-03/Calculadora.cpp)
 add_executable(U00-E03 ${SOURCE_FILES_03})
 
-set(SOURCE_FILES_04 Ej-04/main.cpp)
+set(SOURCE_FILES_04 Ej-04/main.cpp Ej-04/Ejercicio4.h)
 add_executable(U00-E04 ${SOURCE_FILES_04})
 
 set(SOURCE_FILES_05 Ej-05/main.cpp Ej-05/Entero.cpp)

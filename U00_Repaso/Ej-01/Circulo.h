@@ -3,7 +3,16 @@
 
 
 class Circulo {
+public:
+    float r;
+public:
+    float getR() const;
 
+    void setR(float r);
+
+    double getSup ();
+
+    double getPer ();
 };
 
 

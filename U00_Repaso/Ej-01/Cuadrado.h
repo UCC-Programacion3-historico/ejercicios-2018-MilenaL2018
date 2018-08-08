@@ -2,8 +2,13 @@
 #define REPASO_CUADRADO_H
 
 
-class Cuadrado {
+#include "Geometria.h"
 
+class Cuadrado: Geometria {
+public:
+    float getSup ();
+
+    float getPer ();
 };
 
 

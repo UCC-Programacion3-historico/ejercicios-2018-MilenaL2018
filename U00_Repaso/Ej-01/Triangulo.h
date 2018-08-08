@@ -2,8 +2,19 @@
 #define REPASO_TRIANGULO_H
 
 
-class Triangulo {
+#include "Geometria.h"
 
+class Triangulo: Geometria {
+public:
+    float alfa;
+public:
+    float getAlfa() const;
+
+    void setAlfa(float alfa);
+
+    float getArea();
+
+    float getPerim ();
 };
 
 
